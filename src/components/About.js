@@ -15,7 +15,7 @@ class About extends Component {
 
                 <section className="section section-light">
                     <h2> Section one </h2>
-                    <hr></hr>
+
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, accusamus ad alias animi commodi consequatur dolor
                         dolore doloremque dolores dolorum ducimus earum est exercitationem hic illo illum, ipsum libero nesciunt odio, quae rem
@@ -25,7 +25,6 @@ class About extends Component {
                         inventore laboriosam laborum, non praesentium repellendus repudiandae veniam vero. Dignissimos distinctio inventore non optio similique voluptates?
                     </p>
                 </section>
-
 
                 <div className="background-1">
                     <div className="background-text">
