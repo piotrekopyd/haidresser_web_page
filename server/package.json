@@ -6,17 +6,19 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "client": "npm start --prefix ../w",
+    "client": "npm start --prefix ../",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
     "babel-register": "^6.26.0",
     "concurrently": "^5.0.2",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
+    "react-infinite-scroll-component": "^5.0.4",
     "universal-config": "^0.3.0",
     "unsplash": "^4.2.0",
     "unsplash-js": "^6.0.0"

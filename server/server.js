@@ -12,9 +12,17 @@ const unsplash = new Unsplash({
 
 const app = express();
 
+// app.get('/api/photos', (req, res) => {
+//     unsplash
+//         // .search.photos("hairstyle", req.query.start, req.query.count)
+//         .photos.listPhotos(req.query.start, req.query.count)
+//         .then(toJson)
+//         .then(json => res.json(json))
+// });
+
 app.get('/api/photos', (req, res) => {
-    unsplash.photos
-        .listPhotos(1, 30)
+    unsplash
+    .search.photos("hairstyle", req.query.start, req.query.count)
         .then(toJson)
         .then(json => res.json(json))
 });
