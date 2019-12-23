@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.contact-header {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-header h1 {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.contact-header p {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.form {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#contact-message {
+    margin-top: 50px;
+
+}
+
+input {
+    width: 100%;
+    margin: 20px 0;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #0078ff;
+}
+
+button {
+    padding: 20px 32px;
+    font-size: 16px;
+    background: #0078ff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #EAEAEA;
+    font-size: 12px;
+    letter-spacing: 2px;
+}

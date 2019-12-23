@@ -33,10 +33,10 @@ class Header extends Component {
                     </div>
 
                     <div className="navigation">
-                        <Link to="/"><a><li>About</li></a></Link>
+                        <Link to="/"><a><li>Home</li></a></Link>
                         <Link to="/gallery"><a><li>Gallery</li></a></Link>
-                        <Link to="/"><a><li>Make an appointment</li></a></Link>
-                        <Link to="/"><a><li>Contact</li></a></Link>
+                        <Link to="/contact"><a><li>Contact Us</li></a></Link>
+                        <Link to="/"><a><li>Information</li></a></Link>
                     </div>
                 </div>
             </div>

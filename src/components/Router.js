@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import { BrowserRouter, Route} from "react-router-dom";
-import About from "./About";
+import Home from "./Home";
 import Gallery from "./Gallery";
 import Header from "./Header";
+import Contact from "./Contact";
 
 class Router extends Component {
     render() {
@@ -12,8 +13,10 @@ class Router extends Component {
                     <Header/>
                 </div>
                 <div>
-                    <Route exact path="/" component={About}/>
+                    {/*<Contact/>*/}
+                    <Route exact path="/" component={Home}/>
                     <Route path="/gallery" component={Gallery}/>
+                    <Route path="/contact" component={Contact}/>
                     {/*<About/>*/}
                 </div>
             </BrowserRouter>
