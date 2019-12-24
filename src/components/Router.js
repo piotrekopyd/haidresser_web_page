@@ -4,6 +4,7 @@ import Home from "./Home";
 import Gallery from "./Gallery";
 import Header from "./Header";
 import Contact from "./Contact";
+import About from "./About";
 
 class Router extends Component {
     render() {
@@ -17,6 +18,7 @@ class Router extends Component {
                     <Route exact path="/" component={Home}/>
                     <Route path="/gallery" component={Gallery}/>
                     <Route path="/contact" component={Contact}/>
+                    <Route path="/about" component={About}/>
                     {/*<About/>*/}
                 </div>
             </BrowserRouter>
