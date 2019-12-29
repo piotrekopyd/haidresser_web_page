@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import '../css/HomeStyle.css'
 
+
 class Home extends Component {
+    // componentDidMount() {
+    //     $.ajax()
+    // }
+
     render() {
         return (
             <div>
