@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Application skeleton which can be used by hairdresser's web page.
+Application skeleton which can be used as a hairdresser's web page.
 
 Created as a submission to WWW programming course at Jagiellonian University.
 
